@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (NO commitear credenciales reales)
+.env
+
+# Resguardos generados por el script de backup
+resguardos_tpi/
+
+# Sistema
+.DS_Store
+
+# Prompt
+instruccion.md

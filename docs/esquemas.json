@@ -1,0 +1,120 @@
+{
+  "base": "tienda_tpi",
+  "colecciones": {
+    "categorias": [
+      {
+        "_id": "6ad309d8532c865e9824ce23",
+        "nombre": "Periféricos",
+        "descripcion": "Teclados, mouse y cámaras",
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.267Z",
+        "updatedAt": "2026-10-17T05:38:32.267Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad309d8532c865e9824ce25",
+        "nombre": "Almacenamiento",
+        "descripcion": "Discos y memorias",
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.314Z",
+        "updatedAt": "2026-10-17T05:38:32.314Z",
+        "__v": 0
+      }
+    ],
+    "productos": [
+      {
+        "_id": "6ad309d8532c865e9824ce28",
+        "nombre": "Teclado mecánico",
+        "precio": 45000,
+        "stock": 28,
+        "categoria_id": "6ad309d8532c865e9824ce23",
+        "proveedor": {
+          "nombre": "TechImport S.A.",
+          "contacto": "ventas@techimport.com"
+        },
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.399Z",
+        "updatedAt": "2026-10-17T05:38:32.399Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad309d8532c865e9824ce2b",
+        "nombre": "Mouse inalámbrico",
+        "precio": 22000,
+        "stock": 34,
+        "categoria_id": "6ad309d8532c865e9824ce23",
+        "proveedor": {
+          "nombre": "TechImport S.A.",
+          "contacto": "ventas@techimport.com"
+        },
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.515Z",
+        "updatedAt": "2026-10-17T05:38:32.515Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad309d8532c865e9824ce2e",
+        "nombre": "SSD 1TB NVMe",
+        "precio": 98000,
+        "stock": 12,
+        "categoria_id": "6ad309d8532c865e9824ce25",
+        "proveedor": {
+          "nombre": "DataStore Ltda.",
+          "contacto": "contacto@datastore.com"
+        },
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.601Z",
+        "updatedAt": "2026-10-17T05:38:32.601Z",
+        "__v": 0
+      }
+    ],
+    "pedidos": [
+      {
+        "_id": "6ad309d8532c865e9824ce31",
+        "cliente": {
+          "nombre": "Ana Pérez",
+          "email": "ana@example.com"
+        },
+        "items": [
+          {
+            "producto_id": "6ad309d8532c865e9824ce28",
+            "nombre": "Teclado mecánico",
+            "precioUnitario": 45000,
+            "cantidad": 1
+          },
+          {
+            "producto_id": "6ad309d8532c865e9824ce2b",
+            "nombre": "Mouse inalámbrico",
+            "precioUnitario": 22000,
+            "cantidad": 2
+          }
+        ],
+        "total": 89000,
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.704Z",
+        "updatedAt": "2026-10-17T05:38:32.704Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad309d8532c865e9824ce34",
+        "cliente": {
+          "nombre": "Bruno Gómez",
+          "email": "bruno@example.com"
+        },
+        "items": [
+          {
+            "producto_id": "6ad309d8532c865e9824ce2e",
+            "nombre": "SSD 1TB NVMe",
+            "precioUnitario": 98000,
+            "cantidad": 1
+          }
+        ],
+        "total": 98000,
+        "activo": true,
+        "createdAt": "2026-10-17T05:38:32.788Z",
+        "updatedAt": "2026-10-17T05:38:32.788Z",
+        "__v": 0
+      }
+    ]
+  }
+}
